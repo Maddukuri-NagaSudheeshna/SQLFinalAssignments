@@ -12,13 +12,13 @@ CREATE TABLE customer (
 
 create index CustomerName on customer_and_products.customer(Firstname,lastname);
 insert into customer ( customer_id , Firstname , Lastname, City , Country,Phone)
-values (1,'umesh','Nagavarapu','Vizag','India','9676081129');
+values (1,'sudheeshna','Maddukuri','Hyderabad','India','7989035882');
 insert into customer (customer_id , Firstname , Lastname, City , Country,Phone)
-values (2,'naresh','aketi','wg','india','6300158612');
+values (2,'revathi','gagan','banglore','india','8688639025');
 insert into customer (customer_id , Firstname , Lastname, City , Country,Phone)
-values(3,'raham','shaik','bangalore','india','7075058750');
+values(3,'david','warner','sanfransco','usa','8945764512');
 insert into customer (customer_id , Firstname , Lastname, City , Country,Phone)
-values(4,'usha','sree','cdvm','india','7036236259');
+values(4,'spandana','kallepalli','west godavari','india','7451289562');
 
 -----------------------------------------------------------------------------------------
 SELECT 
